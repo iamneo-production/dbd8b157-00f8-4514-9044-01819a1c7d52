@@ -1,0 +1,193 @@
+.uhomenavpp{
+  display:flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #bd7735;
+  padding:20px 0px;
+  box-shadow: 0 5px 15px rgba(226, 122, 19, 0.06);
+  height: 60px;
+  margin-left: 140px;
+  /* background: transparent; */
+}
+
+.log22pp{
+  background-image: url(cheffinder-low-resolution-logo-white-on-transparent-background.png);
+  width: 95px;
+  height: 100px;
+  margin-left: -30px;
+  background-size: cover;
+}
+
+#navbarpp{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 1050px;
+}
+
+#navbarpp li{
+  list-style: none;
+  padding: 0 20px;
+  position: relative;
+}
+
+#navbarpp li a {
+  text-decoration: none;
+  font-size: 1rem;
+  font-weight: 700;
+  color: #ffff;
+  transition: 0.3s ease-in-out;
+}
+@media screen  and (max-width:1000px){
+  #navbarpp
+  {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      justify-content: flex-start;
+      position: fixed;
+      top: 12px;
+      right: -400px;
+      width: 150px;
+      height: 100vh;
+      background: rgb(139, 139, 146);
+      box-shadow: 0 40px 60px rgba(0, 0, 0, 0.1);
+      padding: 0px 0 0 10x;
+      transition: 0.6s ease-in-out;
+  }
+  #navbarpp a.active
+  {
+      /* margin-left: 50px; */
+  }
+  #navbarpp li
+  {
+      margin-bottom :25px; 
+      margin-left: -400px;
+  }
+}
+.logoutpp{
+  color: black;
+}
+
+#navbarpp li a:hover
+{
+  color: #000000;
+}
+
+#navbarpp li a:hover::after{
+  content: "";
+  width: 80%;
+  height: 2px;
+  background: #000000;
+  position: absolute;
+  bottom: -4px;
+  left: 20px;
+
+}
+
+
+.intropp{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: auto;
+  background-image: url(D:\cheffinder\src\css-components\5273929-abstract-blur-coffee-shop-cafe-and-restaurant-for-background-foto-transformed.jpeg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+/* .intropp h1 {
+  font-family: sans-serif;
+  font-size: 60px;
+  color: #fff;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin: 0;
+} */
+
+/* .intropp p {
+  font-size: 20px;
+  color: #d1d1d1;
+  text-transform: uppercase;
+  margin: 20px 0;
+} */
+
+.bodypp{
+  margin: 0;
+  box-sizing: border-box;
+}
+
+
+.headerpp {
+  display: flex;
+  /* justify-content: space-between; */
+  align-items: center;
+  background-color: #bd7735;
+  margin-top: 00px;
+}
+
+
+.cardpp
+      {
+        text-align: left;
+        font-size:1px;
+        background-color: rgb(255, 255, 255);
+          padding: 10px;
+          padding-top: 20px;
+          padding-right: 20px;
+          color: rgb(0, 0, 0);
+          opacity: 0.9;
+          display: flex;
+          width: auto;
+          height: auto;
+          border: 2px solid black;
+          border-radius: 20px;
+          /* margin-left: 50px; */
+          flex-wrap: wrap;
+          justify-content: space-around;
+          margin: 30px;
+      }
+     .cardpp h1{
+      font-size: 19px;
+      color: #000;
+      /* word-spacing: px; */
+      margin-top: 60px;
+      margin-right:70px;
+      font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+     }
+      .profile1pp
+      {
+            background-image: url(upi.jpg);
+            width: 190px;
+            height:150px;
+            background-size: cover;
+            margin-left: 50px;
+            margin-bottom: 20px;
+            margin-right: 20px;
+      }
+      .profile2pp
+      {
+            background-image: url(digi.png);
+            width: 140px;
+            height:150px;
+            background-size: cover;
+            margin-left: 50px;
+            margin-bottom: 20px;
+            margin-right: 20px;
+      }
+      .profile3pp
+      {
+            background-image: url(download\ \(1\).jpg);
+            width: 140px;
+            height:150px;
+            background-size: cover;
+            margin-left: 50px;
+            margin-bottom: 20px;
+            margin-right: 20px;
+      }
+      
+      
+      

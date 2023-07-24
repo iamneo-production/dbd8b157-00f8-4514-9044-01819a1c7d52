@@ -1,0 +1,267 @@
+.uhomenavp{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #bd7735;
+    padding:20px 0px;
+    box-shadow: 0 5px 15px rgba(226, 122, 19, 0.06);
+    height: 60px;
+    margin-left: 140px;
+    /* background: transparent; */
+}
+
+.log22p{
+    background-image: url(cheffinder-low-resolution-logo-white-on-transparent-background.png);
+    width: 95px;
+    height: 100px;
+    margin-left: -30px;
+    background-size: cover;
+  }
+
+#navbarp{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 1050px;
+}
+
+#navbarp li{
+    list-style: none;
+    padding: 0 20px;
+    position: relative;
+}
+
+#navbarp li a {
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight: 700;
+    color: #ffff;
+    transition: 0.3s ease-in-out;
+}
+@media screen  and (max-width:1000px){
+    #navbarp
+    {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: flex-start;
+        position: fixed;
+        top: 12px;
+        right: -400px;
+        width: 150px;
+        height: 100vh;
+        background: rgb(139, 139, 146);
+        box-shadow: 0 40px 60px rgba(0, 0, 0, 0.1);
+        padding: 0px 0 0 10x;
+        transition: 0.6s ease-in-out;
+    }
+    #navbarp a.active
+    {
+        /* margin-left: 50px; */
+    }
+    #navbarp li
+    {
+        margin-bottom :25px; 
+        margin-left: -400px;
+    }
+  }
+.logoutp{
+    color: black;
+}
+
+#navbarp li a:hover
+{
+    color: #000000;
+}
+
+#navbarp li a:hover::after{
+    content: "";
+    width: 80%;
+    height: 2px;
+    background: #000000;
+    position: absolute;
+    bottom: -4px;
+    left: 20px;
+
+}
+
+
+.introp{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: auto;
+    background-image: url(D:\cheffinder\src\css-components\5273929-abstract-blur-coffee-shop-cafe-and-restaurant-for-background-foto-transformed.jpeg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  
+  .introp h1 {
+    font-family: sans-serif;
+    font-size: 60px;
+    color: #fff;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin: 0;
+  }
+  
+  .introp p {
+    font-size: 20px;
+    color: #d1d1d1;
+    text-transform: uppercase;
+    margin: 20px 0;
+  }
+
+  .bodyp{
+    margin: 0;
+    box-sizing: border-box;
+  }
+  
+  
+  .headerp {
+    display: flex;
+    /* justify-content: space-between; */
+    align-items: center;
+    background-color: #bd7735;
+    margin-top: 00px;
+  }
+
+  .transaction-historyp {
+    background-color:rgb(168, 158, 158);
+    border: 1px solid #ffffff;
+    padding:20px;
+    border-radius: 5px;
+    margin-top: 50px;
+  }
+  
+  table {
+
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+  }
+  
+  th,
+  td {
+    font-size: 20px;
+    padding: 70px;
+    padding-top: 10px;
+    text-align: left;
+  }
+  
+  th {
+    color:rgb(255, 255, 255);
+    background-color: #bd7735;
+  }
+  tr:hover {
+    background-color: #de7e09;
+  }
+  .menuitp{
+    color:rgb(0, 0, 0);
+  }
+  .historyp{
+    height:100vh;
+    background-color: #082165;
+  }
+  .history_containerp{
+    margin-top: 9vh;
+  }
+
+  .cardp
+        {
+          text-align: left;
+          font-size:1px;
+          background-color: rgb(255, 255, 255);
+            padding: 90px;
+            padding-top: 20px;
+            padding-right: 90px;
+            color: rgb(0, 0, 0);
+            opacity: 0.9;
+            display: flex;
+            width: auto;
+            height: auto;
+            border: 2px solid black;
+            border-radius: 20px;
+            /* margin-left: 50px; */
+            flex-wrap: wrap;
+            justify-content: space-around;
+            margin: 30px;
+        }
+       .cardp h1{
+        font-size: 19px;
+        color: #000;
+        word-spacing: 5px;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+       }
+        .profile1p
+        {
+              background-image: url(Chef.png);
+              width: 240px;
+              height:250px;
+              background-size: cover;
+              margin-left: 50px;
+              margin-bottom: 20px;
+              margin-right: 200px;
+        }
+        .ser
+        {
+            color: white;
+            width:20%;
+            height: 46px;
+            border-radius: 80px;
+            background: #000000;
+            border: none;
+            outline: none;
+            cursor: pointer;
+            margin-left: 50px;
+            font-size: 18px;
+            margin-top: 20px;
+            font-weight: 700;
+        }
+        .sert
+        {
+            color: white;
+            width:120%;
+            height: 46px;
+            border-radius: 80px;
+            background: #000000;
+            border: none;
+            outline: none;
+            cursor: pointer;
+            margin-left: 50px;
+            font-size: 18px;
+            margin-top: 20px;
+            font-weight: 700;
+        }
+        .profil12
+        {
+          margin-right: 70px;
+        }
+        .btdp
+        {
+          text-align: center;
+          background-color: rgb(0, 0, 0);
+          color: rgb(255, 255, 255);
+          height:50px;
+          width:150px;
+          cursor: pointer;
+          border-radius: 22px;
+        }
+        .serbutp
+        {
+            color: white;
+            width: 70%;
+            height: 46px;
+            border-radius: 80px;
+            background: #000000;
+            border: none;
+            outline: none;
+            cursor: pointer;
+            margin-left: 50px;
+            font-size: 18px;
+            margin-top: 20px;
+            font-weight: 700;
+        }
