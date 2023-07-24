@@ -1,0 +1,170 @@
+.uhomenavedm{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #bd7735;
+    padding:20px 0px;
+    box-shadow: 0 5px 15px rgba(226, 122, 19, 0.06);
+    height: 60px;
+    margin-left: 140px;
+    /* background: transparent; */
+}
+
+.log22edm{
+    background-image: url(cheffinder-low-resolution-logo-white-on-transparent-background.png);
+    width: 95px;
+    height: 100px;
+    margin-left: -30px;
+    background-size: cover;
+  }
+.cened .dot
+{
+  font-size: 30px;
+  text-align:left;
+  color: #000000;
+}
+#navbaredm{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 1050px;
+}
+
+#navbaredm li{
+    list-style: none;
+    padding: 0 20px;
+    position: relative;
+}
+
+#navbaredm li a {
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight: 700;
+    color: #ffff;
+    transition: 0.3s ease-in-out;
+}
+@media screen  and (max-width:1000px){
+    #navbaredm
+    {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: flex-start;
+        position: fixed;
+        top: 12px;
+        right: -400px;
+        width: 150px;
+        height: 100vh;
+        background: rgb(139, 139, 146);
+        box-shadow: 0 40px 60px rgba(0, 0, 0, 0.1);
+        padding: 0px 0 0 10x;
+        transition: 0.6s ease-in-out;
+    }
+    #navbaredm a.active
+    {
+        /* margin-left: 50px; */
+    }
+    #navbaredm li
+    {
+        margin-bottom :25px; 
+        margin-left: -400px;
+    }
+  }
+.logoutedm{
+    color: black;
+}
+
+#navbaredm li a:hover
+{
+    color: #000000;
+}
+
+#navbaredm li a:hover::after{
+    content: "";
+    width: 80%;
+    height: 2px;
+    background: #000000;
+    position: absolute;
+    bottom: -4px;
+    left: 20px;
+
+}
+
+
+.introedm {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 87vh;
+    background-image: url(D:\cheffinder\src\css-components\5273929-abstract-blur-coffee-shop-cafe-and-restaurant-for-background-foto-transformed.jpeg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  
+  .introedm h1 {
+    font-family: sans-serif;
+    font-size: 60px;
+    color: #fff;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin: 0;
+  }
+  
+  .introedm p {
+    font-size: 20px;
+    color: #d1d1d1;
+    text-transform: uppercase;
+    margin: 20px 0;
+  }
+
+  .bodyedm{
+    margin: 0;
+    box-sizing: border-box;
+  }
+  
+  
+  .headeredm {
+    display: flex;
+    /* justify-content: space-between; */
+    align-items: center;
+    background-color: #bd7735;
+    margin-top: 00px;
+  }
+  .caedm
+        {
+          text-align: left;
+          font-size:19px;
+          background-color: rgba(242, 242, 242, 0.658);
+            padding: 100px;
+            padding-top: 10px;
+            padding-right: 120px;
+            color: rgb(0, 0, 0);
+            opacity: 0.7;
+            width: 250px;
+            height: 440px;
+            border-radius: 20px;
+            margin-left: 50px;
+        }
+        .usedm
+        {
+          width:260px;
+          height:35px
+        }
+        .cenedm
+        {
+          text-align: center;
+          display :inline;
+        }
+        .btedm
+        {
+          text-align: center;
+          background-color: rgb(0, 0, 0);
+          color: rgb(255, 255, 255);
+          height:50px;
+          width:150px;
+          cursor: pointer;
+          border-radius: 22px;
+        }

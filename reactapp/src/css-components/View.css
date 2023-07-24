@@ -1,0 +1,171 @@
+.uhomenavv{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #bd7735;
+    padding:20px 0px;
+    box-shadow: 0 5px 15px rgba(226, 122, 19, 0.06);
+    height: 60px;
+    margin-left: 140px;
+    /* background: transparent; */
+}
+
+.log22v{
+    background-image: url(cheffinder-low-resolution-logo-white-on-transparent-background.png);
+    width: 95px;
+    height: 100px;
+    margin-left: -30px;
+    background-size: cover;
+  }
+
+#navbarv{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 1050px;
+}
+
+#navbarv li{
+    list-style: none;
+    padding: 0 20px;
+    position: relative;
+}
+
+#navbarv li a {
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight: 700;
+    color: #ffff;
+    transition: 0.3s ease-in-out;
+}
+@media screen  and (max-width:1000px){
+    #navbarv
+    {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: flex-start;
+        position: fixed;
+        top: 12px;
+        right: -400px;
+        width: 150px;
+        height: 100vh;
+        background: rgb(139, 139, 146);
+        box-shadow: 0 40px 60px rgba(0, 0, 0, 0.1);
+        padding: 0px 0 0 10x;
+        transition: 0.6s ease-in-out;
+    }
+    #navbarv a.active
+    {
+        /* margin-left: 50px; */
+    }
+    #navbarv li
+    {
+        margin-bottom :25px; 
+        margin-left: -400px;
+    }
+  }
+.logoutv{
+    color: black;
+}
+
+#navbarv li a:hover
+{
+    color: #000000;
+}
+
+#navbarv li a:hover::after{
+    content: "";
+    width: 80%;
+    height: 2px;
+    background: #000000;
+    position: absolute;
+    bottom: -4px;
+    left: 20px;
+
+}
+
+
+.introv{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: auto;
+    background-image: url(D:\cheffinder\src\css-components\5273929-abstract-blur-coffee-shop-cafe-and-restaurant-for-background-foto-transformed.jpeg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  
+  .introv h1 {
+    font-family: sans-serif;
+    font-size: 60px;
+    color: #fff;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin: 0;
+  }
+  
+  .introv p {
+    font-size: 20px;
+    color: #d1d1d1;
+    text-transform: uppercase;
+    margin: 20px 0;
+  }
+
+  .bodyv{
+    margin: 0;
+    box-sizing: border-box;
+  }
+  
+  
+  .headerv {
+    display: flex;
+    /* justify-content: space-between; */
+    align-items: center;
+    background-color: #bd7735;
+    margin-top: 00px;
+  }
+
+  .transaction-history {
+    background-color:rgb(168, 158, 158);
+    border: 1px solid #ffffff;
+    padding:20px;
+    border-radius: 5px;
+    margin-top: 50px;
+  }
+  
+  table {
+
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+  }
+  
+  th,
+  td {
+    font-size: 20px;
+    padding: 70px;
+    padding-top: 10px;
+    text-align: left;
+  }
+  
+  th {
+    color:rgb(255, 255, 255);
+    background-color: #bd7735;
+  }
+  tr:hover {
+    background-color: #de7e09;
+  }
+  .menuit{
+    color:rgb(0, 0, 0);
+  }
+  .history{
+    height:100vh;
+    background-color: #082165;
+  }
+  .history_container{
+    margin-top: 9vh;
+  }
